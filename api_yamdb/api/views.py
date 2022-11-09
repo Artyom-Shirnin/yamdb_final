@@ -59,9 +59,9 @@ def user_create_view(request):
     confirmation_code = default_token_generator.make_token(
         User.objects.get(email=email, username=username)
     )
-    MESSAGE = (f'Здравствуйте, {username}! '
+    message = (f'Здравствуйте, {username}! '
                f'Ваш код подтверждения: {confirmation_code}')
-    send_mail(message=MESSAGE,
+    send_mail(message=message,
               subject='Confirmation code',
               recipient_list=[email],
               from_email=None)
