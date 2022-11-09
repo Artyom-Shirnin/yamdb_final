@@ -4,8 +4,7 @@ import os
 import django.db.utils
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
-
-from reviews.models import Comment, Review, Category, Genre, Title
+from reviews.models import Category, Comment, Genre, Review, Title
 from users.models import User
 
 DATA = {
