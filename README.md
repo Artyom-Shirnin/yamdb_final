@@ -1,8 +1,6 @@
 ## Проект YaMDb (final)
 
-![workflow](https://github.com/Artyom-Shirnin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
-
-https://github.com/Artyom-Shirnin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+![workflow](https://github.com/Artyom-Shirnin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 Проект **YaMDb** собирает **отзывы (Review)** пользователей на **произведения (Titles)**. Произведения делятся на категории: "Книги", "Фильмы", "Музыка". Список **категорий (Category)** может быть расширен администратором.
 
